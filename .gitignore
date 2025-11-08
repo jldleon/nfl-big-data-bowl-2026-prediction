@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+pip-wheel-metadata/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data ---
+data/
+!data/.gitkeep  # conserva la estructura, pero no los datos
+
+# --- VSCode / IDEs ---
+.vscode/
+.idea/
+
+# --- OS / Misc ---
+.DS_Store
+Thumbs.db
+
+# --- SageMaker / AWS ---
+*.ipynb_checkpoints
+*.sagemaker/
+
