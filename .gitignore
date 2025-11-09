@@ -15,7 +15,7 @@ pip-wheel-metadata/
 .ipynb_checkpoints/
 
 # --- Data ---
-data/
+data/*
 !data/.gitkeep  # conserva la estructura, pero no los datos
 
 # --- VSCode / IDEs ---
